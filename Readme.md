@@ -2,7 +2,7 @@
 
 This project show how to use the app [RGraph](http://www.rgraph.net/) with [RequireJS](http://requirejs.org/).
 
-While RGraph app doesn't provide the concept of AMD and CommonJS in your library and we want to use RequireJS to load our modules we use the feature **shim** RequireJS for should use the two apps.
+While RGraph app doesn't provide the concept of AMD or CommonJS in your libraries and we want to keep the RequireJS load our modules we should use the feature **shim** available in the RequireJS. So, we continue using the couple of apps.
 
 # Configuration
 
