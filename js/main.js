@@ -1,2 +1,3 @@
-require(['app'], function(_) {
+require(['./config'], function (config) {
+    require(['app/graph']);
 });

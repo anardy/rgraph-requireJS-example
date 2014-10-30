@@ -1,20 +1,15 @@
 require.config({
+	baseUrl: 'js/vendor',
     paths: {
-        jquery    : "vendor/jquery.min",
-        rgraph    : "vendor/RGraph.common.core",
-        gauge     : "vendor/RGraph.gauge",
-        app       : "app"
+		app       : '../app',
+        jquery    : 'jquery.min',
+        rgraph    : 'RGraph.common.core',
+        gauge     : 'RGraph.gauge'
     },
     shim : {
-        gauge : {
-            exports : "Gauge"
-        },
         rgraph : {
-            deps    : [ "jquery", "gauge" ],
-            exports : "RGraph"
-        },
-        app : {
-            exports: "App"
+            deps    : [ 'jquery', 'gauge' ],
+            exports : 'RGraph'
         }
-    }
+	}
 });
